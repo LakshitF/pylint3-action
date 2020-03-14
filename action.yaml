@@ -1,12 +1,12 @@
-# name: 'pylint3-action'
-# description: 'Perform Style Checking on your Python code base using pycodestyle'
-# inputs:
-#   filename: 1
-#     description: 'Filename'
-#     required: true
-#     default: 'test.py'
-# runs:
-#   using: 'docker'
-#   image: 'Dockerfile'
-#   args:
-#     - ${{ inputs.filename }}
+name: 'pylint3-action'
+description: 'Perform Style Checking on your Python code base using pycodestyle'
+inputs:
+  filename: 1
+    description: 'Filename'
+    required: true
+    default: 'test.py'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.filename }}
