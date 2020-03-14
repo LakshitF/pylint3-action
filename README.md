@@ -14,7 +14,7 @@ jobs:
     steps:
     - name: Run Action Step
       id: hello
-      uses: actions/pyLint-action@v1
+      uses: actions/pylint3-action@v2
       with:
         filename: 'test.py'
 
