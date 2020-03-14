@@ -17,6 +17,7 @@ RUN pip install pycodestyle
 COPY entrypoint.sh /entrypoint.sh
 
 # Code file to execute when the docker container starts up (`entrypoint.sh`)
-RUN chmod +x /usr/bin/entrypoint.sh
+RUN pwd
+RUN chmod +x /usr/bin/docker/entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
 
