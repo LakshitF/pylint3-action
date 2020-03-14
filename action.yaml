@@ -1,0 +1,7 @@
+name: 'pylint33-action'
+description: 'Perform Style Checking on your Python 3 code base using pycodestyle'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.filename }}
