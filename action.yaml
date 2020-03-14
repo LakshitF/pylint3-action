@@ -1,5 +1,5 @@
 name: 'pylint3-action'
-description: 'Perform Style Checking on your Python code base using pycodestyle'
+description: 'Perform Style Checking on your Python 3 code base using pycodestyle'
 inputs:
   filename: 1
     description: 'Filename'
