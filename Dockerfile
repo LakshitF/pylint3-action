@@ -6,8 +6,8 @@ LABEL "com.github.actions.description"="Style check your Python Codebase"
 LABEL maintainer = "LakshitF <lakshit2010@gmail.com> "
 LABEL "com.github.actions.icon"="award"
 LABEL "com.github.actions.color"="1a75ff"
-LABEL "repository"="https://github.com/LakshitF/pylint-action.git"
-LABEL "homepage"="https://github.com/LakshitF/pylint-action"
+LABEL "repository"="https://github.com/LakshitF/pylint33-action.git"
+LABEL "homepage"="https://github.com/LakshitF/pylint33-action"
 
 RUN pip install --upgrade pip
 RUN pip install pycodestyle
