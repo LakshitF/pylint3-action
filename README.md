@@ -2,7 +2,7 @@
  It checks your Python code against style conventions using PycodeStyle
 
 ## Example usage
-Add the code to create a job in your Workflow inside the .github/workflows directory.
+Add the code to create a job in your Workflow inside the .github/workflows directory
 
 ```
 on: [push]
